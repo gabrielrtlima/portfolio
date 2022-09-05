@@ -29,6 +29,9 @@ export function HomeHero() {
             <div>
               curso: <span className='blue'>Engenharia de Software</span>
             </div>
+            <div>
+              situação: <span className='blue'>Em andamento</span>
+            </div>
             {`}`}
           </CodeItem>
         </InfosContainer>

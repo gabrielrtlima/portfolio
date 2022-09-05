@@ -12,6 +12,11 @@ export const Container = styled.section`
     width: 40rem;
     border-radius: 40rem;
     flex: 1;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.1)
+    }
   }
 
   > div {

@@ -98,6 +98,11 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
     background-size: cover;
     position: relative;
     border-radius: 1rem;
+    transition: 1s;
+
+    &:hover {
+      transform: scale(1.02)
+    }
 
     > div.overlay {
       position: absolute;
